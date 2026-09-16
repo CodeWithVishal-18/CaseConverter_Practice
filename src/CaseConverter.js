@@ -40,7 +40,6 @@ export default function UpperCase(props) {
             <div className='d-flex justify-content-start'>
                 <p className='mx-3'>Char Count: {charCount}</p>
                 <p>Word Count: {wordCount}</p></div>
-
             <div className='d-flex flex-wrap gap-2 align-items-center'>
                 <button className='btn btn-primary' onClick={changeToUpper}>Convert to UpperCase</button>
                 <button className='btn btn-primary' onClick={changeToLower}>Convert to LowerCase</button>
